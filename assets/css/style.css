@@ -1934,3 +1934,57 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+.form-container{
+font-family: "Open Sans", sans-serif;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+padding-bottom: 60px;
+background: #eee;
+}
+
+.form-container form{
+  font-family: sans-serif;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+background: #fff;
+text-align: center;
+}
+
+.form-container form h3{
+font-size: 30px;
+text-transform: uppercase;
+margin-bottom: 10px;
+color: #2487ce;
+
+}
+
+.form-container form input, .form-container form select{
+width: 90%;
+padding: 10px 15px;
+font-size: 14px;
+margin: 10px ;
+background: #eee;
+}
+.form-container form select option{
+background: #fff;
+
+}
+
+.form-container form .form-btn{
+  font-family: "Open Sans", sans-serif;
+  background: #2487ce   ;
+  color: #eee;
+  text-transform: uppercase;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+background: #2487ce;
+color: #fff;
+}
